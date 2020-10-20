@@ -7,9 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
 @interface ViewController : NSViewController
-
-
+@property (weak) IBOutlet NSTextField *timelabel;
+@property (weak) IBOutlet NSButton *btn;
+- (IBAction)btnAction:(NSButton *)sender;
 @end
 
